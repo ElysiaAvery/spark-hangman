@@ -1,0 +1,29 @@
+UI Stuff
+display stuff:
+  guessed characters
+  guesses left
+  word with dashes and characters interlaid
+
+
+
+Hangman Class
+
+internal variables:
+  words to be guessed (array)
+  guessed characters (arraylist)
+  current word (string/characterArray?)
+
+internal methods:
+  constructor
+    randomly selects word to be guessed
+
+  method that runs game play
+    store new guesses
+    compare guess against word "contains()"
+    update internal variables
+
+  methods that get internal variables
+    return the information
+
+  method gameWin
+    true or false return
